@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(11, 43, 88);
+    color: white;
+}
+.bar{
+    background-color:rgb(11, 43, 88);
+    margin-top: 10px;
+   
+}
+.bar .navbar{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    list-style: none;
+}
+.bar .navbar .list{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 60px 80px 80px 120px;
+    font-size: 25px;
+} 
+.bar .navbar .list:hover{
+    color: aqua;
+} 
+section #box .first{
+    height:800px;
+    width: 1200px;
+    position: absolute;
+    display:block;
+ }
+ #box img{
+    width: 1350px;
+    height: 450px;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+    right: 5%;
+    /* position: relative; */
+ }
+ section  .content h1{
+    margin-bottom: 240px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    left: 150px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.897);
+    animation: textup 8s linear infinite;
+    transform: translateY(75px);
+}
+
+section  .content p{
+    top: 150px;
+    left: 150px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.897);
+    animation: textup 8s linear infinite;
+    transform: translateY(75px);
+    display: flex;
+    /* color: white; */
+    
+}
+section .first .content span{
+    background: violet;
+    top:330px ;
+    left: 10%;
+    height: 3px;
+    width: 150px;
+    position: absolute;
+}
+section .first .content button{
+    background: rgb(116, 133, 235);
+    color: white;
+    padding: 5px 5px 5px 5px;
+    top:360px ;
+    left: 10%;
+    position: absolute;
+}
+#media .second img{
+    width: 330px;
+    height: 250px;
+    position: absolute;
+    left: 9%;
+    top: 90%;
+    right: 5%;
+    display: flex;
+}
+section  .matter1 p{
+    top: 620px;
+    left: 600px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.897);
+    animation: textup 8s linear infinite;
+    transform: translateY(105px);
+    display: flex;
+    color: white;
+}
+.head{
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    transform: translateY(528px);
+}
+.head:hover{
+    color:aqua;
+}
+#media .third img{
+    width: 250px;
+    height: 190px;
+    position: absolute;
+    left: 10%;
+    top: 135%;
+    right: 5%;
+    display: flex;
+}
+section  .matter2 p{
+    top: 900px;
+    left: 600px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.897);
+    animation: textup 8s linear infinite;
+    transform: translateY(105px);
+    display: flex;
+    color: white;
+}
+#media .forth img{
+    width: 250px;
+    height: 190px;
+    position: absolute;
+    left: 10%;
+    top: 176%;
+    right: 5%;
+    display: flex;
+}
+section  .matter3 p{
+    top: 1200px;
+    left: 600px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.897);
+    animation: textup 8s linear infinite;
+    transform: translateY(105px);
+    display: flex;
+    color: white;
+}
+#contact-us{
+    margin-top: 90%;
+  }
+  
+  .tit .ctc{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: #ffffff;;
+  }
+  .tit .ctc::after{
+    content: "";
+    height: 5px;
+    width: 275px;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+  }
+  .cont1{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+    color: #ffffff;
+  }
+  .card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color:rgb(11, 43, 88);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .cont1 .card .icon1{
+    min-width: 60px;
+    height: 60px;
+    /* padding-left: 20px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  .card:hover{
+    background-color: rgb(16, 107, 234);
+    transition: 0.4s easy;
+  }
+  .card .icon1{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  .card .add{
+    font-size: 28px;
+    color: #ffffff;
+  }
+  .card p{
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+  
+  .ctc:hover{
+    color:aqua;
+  }
+  
+  #card-2{
+    margin-top:-25px;
+  }
+  
+  @media screen and (max-width:992px){
+    .cont1{
+        display: flex;
+        flex-direction: column;
+        margin-left:500px ;
+        font-size: 60px;
+    }
+    .cont1 .card .kuchi17 {
+      font-size: 40px;
+    }
+    .card{
+        width: 85%;
+        display: flex;
+        margin: 10px 0px;
+  }
+  .sec1 .tit .ctc{
+    margin-left: 490px;
+    font-size: 70px;
+  }
+  .tit .ctc::after{
+    content: "";
+    height: 5px;
+    width: 460px;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+  }
+  }
+  
